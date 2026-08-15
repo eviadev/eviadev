@@ -4,7 +4,22 @@ I build software that **explains itself**.
 
 My focus is evidence-first engineering: systems that preserve sources, expose uncertainty, measure quality, and keep humans in control. I enjoy working where backend engineering, product thinking, and applied AI meet.
 
-## Featured build
+## Featured builds
+
+### [ReviewReplay](https://github.com/eviadev/review-replay)
+
+**Replay yesterday's bugs to measure today's code-review agents.**
+
+ReviewReplay turns historical bug-fix commits into blind evaluation cases. The reviewer sees a buggy snapshot; the scoring oracle keeps the later fix separate and measures localization precision, recall, and F1.
+
+- provider-independent and fully local;
+- task/oracle separation with an explicit leakage threat model;
+- one-to-one matching so duplicate findings cannot inflate scores;
+- micro and macro metrics across benchmark suites;
+- real temporary Git repositories in tests;
+- CI on Python 3.11, 3.12, and 3.13.
+
+`Python` · `AI evaluation` · `Git internals` · `CLI` · `Reproducible benchmarks`
 
 ### [ChangeAtlas](https://github.com/eviadev/change-atlas)
 
