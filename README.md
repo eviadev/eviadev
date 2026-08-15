@@ -28,9 +28,10 @@ ReviewReplay turns historical bug-fix commits into blind evaluation cases. The r
 ChangeAtlas reconstructs a file's history across renames and turns Git commits into a deterministic evidence graph. Every explanation remains traceable to the repository instead of becoming an unverifiable summary.
 
 - follows file history through renames;
-- links claims to normalized GitHub commit citations;
+- traces an exact line to its last-changing commit with `git blame`;
+- extracts linked GitHub issues, PRs, and commit references from intent text;
+- emits a temporal `commit → file/reference` graph for downstream tools;
 - ranks hotspots using commit frequency and churn;
-- emits a temporal `commit → file` graph for downstream tools;
 - tests behavior against real temporary Git repositories;
 - runs CI on Python 3.11, 3.12, and 3.13.
 
