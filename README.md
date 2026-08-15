@@ -21,6 +21,23 @@ ReviewReplay turns historical bug-fix commits into blind evaluation cases. The r
 
 `Python` · `AI evaluation` · `Git internals` · `CLI` · `Reproducible benchmarks`
 
+### [ClauseScope](https://github.com/eviadev/clause-scope)
+
+**Contract review where every result keeps its evidence.**
+
+ClauseScope is a full-stack review workflow for synthetic PDF and DOCX contracts. It connects exact extracts and locations to version diffs, evaluation metrics, and append-only human decisions.
+
+- detects clauses with extracts, page/section provenance, offsets, and confidence;
+- compares added, removed, modified, and unchanged obligations;
+- generates a one-click synthetic before/after DOCX demonstration;
+- keeps approvals and change requests in an audit trail;
+- evaluates 14 annotated cases with per-clause errors and CI quality gates;
+- validates 18 backend tests and 30 frontend tests in CI.
+
+`FastAPI` · `React` · `TypeScript` · `SQLAlchemy` · `Document intelligence` · `Human-in-the-loop`
+
+> Synthetic benchmark scores are regression signals, not claims about real-contract accuracy or legal advice.
+
 ### [ChangeAtlas](https://github.com/eviadev/change-atlas)
 
 **Software archaeology for answering _why does this code exist?_**
